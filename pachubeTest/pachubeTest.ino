@@ -36,7 +36,8 @@
 **
 **********************************************************************************
 **********************************************************************************/
-#define API_KEY "1QrIEwOdd5le4oNFrCtgGti9dEuSAKxobmlwQjRsd21CST0g" // your Cosm API key
+#define API_KEY "1QrIEwOdd5le4oNFrCtgGti9dEuSAKxobmlwQjRsd21CST0g" // Spencers Key, Do not use!!!
+//#define API_KEY "<replace_with_your_key>"                        // your Cosm API key
 
 /*********************************************************************************
 **********************************************************************************
@@ -46,8 +47,8 @@
 **
 **********************************************************************************
 **********************************************************************************/
-#define FEED_ID 120687 // your Cosm feed ID
-
+#define FEED_ID 120687                  // Spencers ID, DO NOT USE
+//#define FEED_ID replace_with_your_feed_id // your Cosm feed ID
 
 
 
