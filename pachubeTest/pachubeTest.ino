@@ -27,8 +27,29 @@
 #include <HttpClient.h>
 #include <Cosm.h>
 
+
+/*********************************************************************************
+**********************************************************************************
+**
+** DO NOT USE THIS API KEY!!
+** Instead go to cosm, create your own account, and place your key here:
+**
+**********************************************************************************
+**********************************************************************************/
 #define API_KEY "1QrIEwOdd5le4oNFrCtgGti9dEuSAKxobmlwQjRsd21CST0g" // your Cosm API key
+
+/*********************************************************************************
+**********************************************************************************
+**
+** DO NOT USE THIS FEED ID!!
+** Instead go to cosm, create your own account, and place your ID here:
+**
+**********************************************************************************
+**********************************************************************************/
 #define FEED_ID 120687 // your Cosm feed ID
+
+
+
 
 // MAC address for your Ethernet shield
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0x44, 0x44 };
@@ -37,9 +58,9 @@ byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0x44, 0x44 };
 int sensorPin = 2;
 
 unsigned long lastConnectionTime = 0;                // last time we connected to Cosm
-const unsigned long connectionInterval = 15000;      // delay between connecting to Cosm in milliseconds
+//const unsigned long connectionInterval = 15000;      // delay between connecting to Cosm in milliseconds
 /* Increase frequency of updates from 15 seconds to .5 seconds (for testing)*/
-//const unsigned long connectionInterval = 500;      // delay between connecting to Cosm in milliseconds
+const unsigned long connectionInterval = 2000;      // delay between connecting to Cosm in milliseconds
 
 //Kocks don't always happen right when the knock sensor is polled. Causes readings to show 0 more often than it should
 const int numberOfReadings = 30; 
