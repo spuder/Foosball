@@ -35,7 +35,7 @@ byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0x44, 0x44 };
 
 // Analog pin which we're monitoring (0 and 1 are used by the Ethernet shield)
 int sensorPin = 2;
-int sensorValue = 0;
+
 
 unsigned long lastConnectionTime = 0;                // last time we connected to Cosm
 //const unsigned long connectionInterval = 15000;      // delay between connecting to Cosm in milliseconds
@@ -79,7 +79,7 @@ void loop() {
   // main program loop
   if (millis() - lastConnectionTime > connectionInterval) {
     // read a value from the pin
-    sensorValue = analogRead(sensorPin);
+    int sensorValue = analogRead(sensorPin);
     // send it to Cosm
     sendData(sensorValue);
     // read the datastream back from Cosm

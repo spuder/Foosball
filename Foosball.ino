@@ -11,7 +11,7 @@ Spencer Owen
 **/
 
 int ledPin = 13;
-int sensorPin = 0;
+int sensorPin = 2;
 byte sensorValue = 0;
 
 float lastMovement = 0;
