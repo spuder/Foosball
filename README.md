@@ -10,7 +10,7 @@ Arduino ethernet
 1 MegaOhm resistor between Analog Pin 2 & ground to prevent overloads of the transducer from destroying arduino
 
 
-The analog readings of the transducer are uploaded to cosm (formerlly called pachube) at a regular interval. 
+The analog readings of the transducer are uploaded to cosm (formerly called pachube) at a regular interval. 
 Cosm provides API's to query the history of the sensors. 
 
 https://cosm.com/feeds/120687

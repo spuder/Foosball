@@ -1,25 +1,24 @@
 div {
-	
 	height:265px;
 	width:745px;
-	display: inline-block;
-
+	display:inline-block;
 }
 
 #graph {
 	background-color:#C0C0C0;
-	margin: 0 auto;
+	margin:0px auto 0px auto;
 }
 
 #rawData {
 	background-color:#C0C0C0;
-	margin: 0 auto;
-}
-
-#green {
-	background-color:#008800;
+	margin:0px auto 0px auto;
 }
 
 p.content-one {
-    display:none;
+	display:none;
 }
+
+#wrapper {
+	
+}
+
