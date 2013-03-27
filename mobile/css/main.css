@@ -1,0 +1,113 @@
+html, button, input, select, textarea {
+	color:#222222;
+}
+
+body {
+	font-size:1em;
+	line-height:1.4;
+}
+
+a {
+	color:#0000EE;
+}
+
+a:visited {
+	color:#551A8B;
+}
+
+a:hover {
+	color:#0066EE;
+}
+
+img {
+	vertical-align:middle;
+}
+
+fieldset {
+	border-image:initial;
+	margin:0;
+	padding:0;
+}
+
+textarea {
+	resize:vertical;
+}
+
+.nocallout {
+}
+
+.pressed {
+	background-color:rgba(0,0,0,0.70);
+}
+
+textarea[contenteditable] {
+	-webkit-appearance:none;
+}
+
+.gifhidden {
+	position:absolute;
+	left:-100%;
+}
+
+.ir {
+	background-color:transparent;
+	background-repeat-x:no-repeat;
+	background-repeat-y:no-repeat;
+	background-repeat:no-repeat;
+	border-image:initial;
+	direction:ltr;
+	display:block;
+	overflow:hidden;
+	text-align:left;
+	text-indent:-999em;
+}
+
+.ir br {
+	display:none;
+}
+
+.hidden {
+	display:none;
+	visibility:hidden;
+}
+
+.visuallyhidden {
+	border-image:initial;
+	clip:rect(0px 0px 0px 0px);
+	height:1px;
+	overflow:hidden;
+	position:absolute;
+	width:1px;
+	margin:-1px;
+	padding:0;
+}
+
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+	clip:auto;
+	height:auto;
+	overflow:visible;
+	position:static;
+	width:auto;
+	margin:0;
+}
+
+.invisible {
+	visibility:hidden;
+}
+
+.clearfix::before, .clearfix::after {
+	content:'';
+	display:table;
+}
+
+.clearfix::after {
+	clear:both;
+}
+
+.clearfix {
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution) { 
+  #fluxcsscommentfakeruleprefix2221226691104740033 { }
+}
+
