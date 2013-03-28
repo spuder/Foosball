@@ -56,6 +56,13 @@
 	min-width: 750px ;
 	display: inline-block;
 }
+#rawData2 {
+	background-color:#C0C0C0;
+	margin: 0 auto;
+	min-height: 165px ;
+	min-width: 750px ;
+	display: inline-block;
+}
 
 
 .tableStatus{
