@@ -12,6 +12,10 @@ $(document).ready( function()  {
     //setInterval (getJson, 1000);
 
     var avgReadings = averageReadings();
+    //setInterval (averageReadings, 1000);
+
+    updateGraph();
+    setInterval (updateGraph, 10000);
 
     if ( avgReadings > 0 ) {
       //http://www.andrewleeart.com/tutorials/animation.html
@@ -22,6 +26,8 @@ $(document).ready( function()  {
       $('.tableStatus').css({"background-image":"-webkit-gradient(linear, 0 0, 0 100%,from(#fe8989),to(#f62e2e),  color-stop(50%, #be0a0a), color-stop(50%, #a40606))" });
       $('.tableStatus').css({"background-image":"-moz-linear-gradient(top left 270deg, #fe8989, #be0a0a 50%,  #a40606 50%, #f62e2e);"  });
       $('.tableStatus').css({"background-image":"-o-linear-gradient(top left 270deg, #fe8989, #be0a0a 50%, #a40606 50%, #f62e2e);"    });
+
+
 
       $('.tableStatus').append( "Game in progress" ).fadeIn( 1, function() {
       // Animation complete.
@@ -88,4 +94,8 @@ function averageReadings() {
 
   return sum/arrayOfReadings.length;
 
+}
+
+function updateGraph() {
+  
 }

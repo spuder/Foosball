@@ -1,18 +1,17 @@
 #wrapper {
 
 	margin: 0 auto;
-	margin-left: auto ;
-	margin-right: auto ;
+	margin-left: 0 ;
+	margin-right: 0 ;
 	text-align: center ;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 
 }
 
-#header {
-	margin: 0 auto;
-	width:auto;
-	height:auto;
-	min-height: 50px;
-}
+
 
 
 #optionButtons{
@@ -49,21 +48,13 @@
 	display: inline-block;
 }
 
-#rawData {
+/*#rawData {
 	background-color:#C0C0C0;
 	margin: 0 auto;
 	min-height: 165px ;
 	min-width: 750px ;
 	display: inline-block;
-}
-#rawData2 {
-	background-color:#C0C0C0;
-	margin: 0 auto;
-	min-height: 165px ;
-	min-width: 750px ;
-	display: inline-block;
-}
-
+}*/
 
 .tableStatus{
 	display:block;
@@ -72,7 +63,7 @@
 	border-radius:366px;
 	border:4px double #ccc;
 	font-size:55px;
-	color:#666;
+	color:#000;
 	line-height:400px;
 	text-align:center;
 	text-decoration:none;
@@ -80,11 +71,10 @@
 	background:#ddd;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 .tableStatus:hover{
 	border:4px double #bbb;
 	color:#aaa;text-decoration:none;
 	background:#e6e6e6
 }
-
-#tableAvailable{}
