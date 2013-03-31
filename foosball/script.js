@@ -4,8 +4,37 @@
     var arrayOfReadings = [0,0,0,0,0,0,0,0,0,0];
     var arrayOfReadingsIndex = 0;
 
+     
+
+
 
 $(document).ready( function()  {
+
+    var uri = 'https://api.cosm.com/v2/feeds/120687/datastreams/sensor_reading.png?',
+        params = {
+            width: 850,
+            height: 250,
+            colour: '#0055ff',
+            duration: '5minutes',
+            legend: 'Analog Value from 0 -> 1024 ',
+            title: 'Table Vibration Values - 5 Minutes',
+            show_axis_labels: 'true', 
+            detailed_grid: 'true',
+            scale: 'manual',
+            max: 15,
+            timezone: 'Mountain Time (US & Canada)'
+        };
+    var data = uri + $.param(params),
+        graph = $('#graph'),
+        obGraph = $('<img/>').prop({'id': 'graphObject'});
+    var updateGraph = function() {
+        var date = new Date(),
+        src = data + '&' + date.getTime();
+        obGraph.prop('src', '');
+        obGraph.prop('src', src);
+   };
+
+
 
     
     getJson();
@@ -14,8 +43,12 @@ $(document).ready( function()  {
     var avgReadings = averageReadings();
     //setInterval (averageReadings, 1000);
 
+    graph.empty().append(obGraph);
     updateGraph();
     setInterval (updateGraph, 10000);
+
+
+
 
     if ( avgReadings > 0 ) {
       //http://www.andrewleeart.com/tutorials/animation.html
@@ -96,6 +129,7 @@ function averageReadings() {
 
 }
 
-function updateGraph() {
+// function updateGraph() {
+//       $('#graph')attr.('data', "https://api.cosm.com/v2/feeds/120687/datastreams/sensor_reading.png?width=740&height=150&colour=%230055ff&duration=5minutes&legend=Vibrations%20measure%20%200%20-%3E%201024&title=Foosball%20Vibrations%20-%205%20Minutes&stroke_size=4&show_axis_labels=true&detailed_grid=true&scale=manual&max=75&timezone=Mountain%20Time%20(US%20%26%20Canada)");
   
-}
+// }
