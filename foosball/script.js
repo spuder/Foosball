@@ -52,17 +52,8 @@ $(document).ready( function()  {
       var local_average = averageReadings();
       updateColor(local_average);
 
-
-      //$('.datastream-value').replaceWith(data.current_value);
     });
 
-
-    
-    //getJson();
-    //setInterval (getJson, 1000);
-
-    //var avgReadings = averageReadings();
-    //setInterval (averageReadings, 1000);
 
     graph.empty().append(obGraph);
     updateGraph();
@@ -131,8 +122,11 @@ function updateColor(currentAverage) {
       var red1 = "#de0f0f";
       var red2 = "#fe8989";
 
-      $('.tableStatus').css({"background-color":"red1" });
-      $('.tableStatus').css({"background-image":"-webkit-gradient(linear, 0 0, 0 100%,from(#fe8989),to(#f62e2e),  color-stop(50%, #be0a0a), color-stop(50%, #a40606))" });
+      //gradient strings
+      var webkitGradient = "-webkit-gradient(linear, 0 0, 0 100%,from("+red2+"),to(#f62e2e),  color-stop(50%, #be0a0a), color-stop(50%, #a40606))";
+
+      $('.tableStatus').css({"background-color":red1 });
+      $('.tableStatus').css({ webkitGradient });
       $('.tableStatus').css({"background-image":"-moz-linear-gradient(top left 270deg, #fe8989, #be0a0a 50%,  #a40606 50%, #f62e2e);"  });
       $('.tableStatus').css({"background-image":"-o-linear-gradient(top left 270deg, #fe8989, #be0a0a 50%, #a40606 50%, #f62e2e);"    });
 
