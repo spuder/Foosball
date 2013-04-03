@@ -1,23 +1,14 @@
  /**
- * Cosm Arduino sensor client example.
- *
- * This sketch demonstrates connecting an Arduino to Cosm (https://cosm.com),
- * using the new Arduino library to send and receive data.
- *
+
+Code derivded from Cosm's Arduino sensor client example code 
+Full tutorial available here: https://cosm.com/docs/quickstart/arduino.html
+
  * Requirements
  *   * Arduino with Ethernet shield or Arduino Ethernet (board must use the
  *     Wiznet Ethernet chipset)
  *   * Arduino software with version >= 1.0
  *   * An account at Cosm (https://cosm.com)
- *
- * Optional
- *   * An analog sensor connected to pin 2 (note we can still read a value from
- *     the pin without this)
- *
- * Created 8th January, 2013 using code written by Adrian McEwen with
- * modifications by Sam Mulube
- *
- * Full tutorial available here: https://cosm.com/docs/quickstart/arduino.html
+ *   * A piezo electric transducer connected between Analog pin 2 and ground
  *
  * This code is in the public domain.
  */
