@@ -2,7 +2,7 @@
 //http://jsfiddle.net/spuder/nvxQ2/5/ Working example using cosm's library 
     
     //var arrayOfReadings = [0,0,0,0,0,0,0,0,0,0];
-    var arrayOfReadings = [0,0,0,0,0,0,0,0,1,0];
+    var arrayOfReadings = [0,0,0,0,0,1,0,0,0,0];
 
     cosm.setKey("-Ux_JTwgP-8pje981acMa5811-mSAKxpR3VRUHRFQ3RBUT0g");
     var local_sensor_value = 0;
@@ -61,7 +61,14 @@ $(document).ready( function()  {
 
 
 
+
+
+
 }); //end $(document).ready( function()
+
+$('#graph').mouseenter(function() {
+  $('#graph').fadeIn(100);
+          }).mouseleave(handlerOut);
 
 
 function addReading(reading) {

@@ -202,8 +202,10 @@
 				background: linear-gradient(to bottom,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%); /* W3C */
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 			}
-			#other-stuff {
-				width: 960px;
-				height: 400px;
+			#graph {
+				margin: 0 auto 0;
+				opacity:0.3;
+				width: 850px;
+				height: 250px;
 				background: white;
 			}
