@@ -108,6 +108,7 @@ void loop() {
     // send it to Cosm
     //sendData(sensorValue);
     sendData(readingsAverage);
+    readingsAverage=0;//reset the average
     // read the datastream back from Cosm
     //getData();
     // update connection time so we wait before connecting again
