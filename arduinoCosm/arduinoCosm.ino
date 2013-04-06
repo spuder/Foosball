@@ -52,7 +52,7 @@ int sensorPin = 2;
 unsigned long lastConnectionTime = 0;                // last time we connected to Cosm
 //const unsigned long connectionInterval = 15000;      // delay between connecting to Cosm in milliseconds
 /* Increase frequency of updates from 15 seconds to .5 seconds (for testing)*/
-const unsigned long connectionInterval = 2000;      // delay between connecting to Cosm in milliseconds
+const unsigned long connectionInterval = 1500;      // delay between connecting to Cosm in milliseconds
 
 //Kocks don't always happen right when the knock sensor is polled. Causes readings to show 0 more often than it should
 const int numberOfReadings = 30; 
