@@ -2,16 +2,34 @@
 //http://jsfiddle.net/spuder/nvxQ2/5/ Working example using cosm's library 
     
     //var arrayOfReadings = [0,0,0,0,0,0,0,0,0,0];
-    var arrayOfReadings = [0,0,0,0,0,1,0,0,0,0];
+    var arrayOfReadings = [];
 
     cosm.setKey("-Ux_JTwgP-8pje981acMa5811-mSAKxpR3VRUHRFQ3RBUT0g");
-    var local_sensor_value = 0;
 
+    var local_sensor_value = 0;
+    var cosmFeed1 = 120687;
+    var cosmDataStream1 = "sensor_reading";
      
 
 
 
 $(document).ready( function()  {
+
+
+  
+  var getHistory = function(data){
+
+    console.log("*** getHistory() ***");
+
+        for(var datapoint in data.datapoints){
+            var dp = data.datapoints[datapoint];
+
+            arrayOfReadings.push( Math.round( dp.value) );
+            console.log("arrayOfReadings[]" + dp.value + " At: " + dp.at );
+        }
+    }
+
+  cosm.datastream.history( cosmFeed1, cosmDataStream1, {duration:'60seconds', interval:0}, getHistory );
 
 
 
@@ -66,9 +84,6 @@ $(document).ready( function()  {
 
 }); //end $(document).ready( function()
 
-$('#graph').mouseenter(function() {
-  $('#graph').fadeIn(100);
-          }).mouseleave(handlerOut);
 
 
 function addReading(reading) {
@@ -119,4 +134,6 @@ function updateColor(currentAverage) {
 
     }
 }
+
+
 
