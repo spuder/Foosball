@@ -24,7 +24,7 @@ $(document).ready( function()  {
             legend: 'Analog Value from 0 -> 1024 ',
             title: 'Table Vibration Values - 5 Minutes',
             show_axis_labels: 'true', 
-            detailed_grid: 'true',
+            detailed_grid: 'false',
             scale: 'manual',
             max: 15,
             timezone: 'Mountain Time (US & Canada)'
