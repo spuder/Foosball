@@ -26,7 +26,7 @@ $(document).ready( function()  {
             show_axis_labels: 'true', 
             detailed_grid: 'false',
             scale: 'manual',
-            max: 15,
+            max: 35,
             timezone: 'Mountain Time (US & Canada)'
         };
     var data = uri + $.param(params),
