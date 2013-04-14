@@ -33,7 +33,7 @@ $(document).ready( function()  {
 
 
 
-    var uri = 'https://api.cosm.com/v2/feeds/120687/datastreams/sensor_reading.png?',
+    var uri = 'https://api.cosm.com/v2/feeds/'+cosmFeed1+'/datastreams/'+cosmDataStream1+'.png?',
         params = {
             width: 850,
             height: 250,
