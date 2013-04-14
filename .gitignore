@@ -1,0 +1,6 @@
+Vagrantfile
+.vagrant
+bootstrap.sh
+bootstrap.sh
+.DS_Store
+.vagrant*
