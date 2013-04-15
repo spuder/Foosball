@@ -14,16 +14,18 @@
 
 
 $(document).ready( function()  {
+  console.log("document.ready");
 
 
   
   var getHistory = function(data){
 
-    console.log("*** getHistory() ***");
+    console.log("*** getHistory() ****");
 
         for(var datapoint in data.datapoints){
-            var dp = data.datapoints[datapoint];
 
+            var dp = data.datapoints[datapoint];
+            console.log("dp is " + dp);
             arrayOfReadings.push( Math.round( dp.value) );
             console.log("arrayOfReadings[]" + dp.value + " At: " + dp.at );
         }
@@ -59,7 +61,6 @@ $(document).ready( function()  {
 
     cosm.datastream.subscribe( "120687", "sensor_reading", function( event, data ) {  
 
-
       //local_sensor_value = data.current_value;
       console.log("data.current_value is: " + data.current_value);
       //console.log(local_sensor_value);
@@ -78,16 +79,12 @@ $(document).ready( function()  {
     setInterval (updateGraph, 10000);
 
 
-
-
-
-
 }); //end $(document).ready( function()
 
 
 
 function addReading(reading) {
-  console.log("addReading(reading) is: " + reading);
+  console.log("function addReading(reading) appending: " + reading);
   reading = Math.round(reading);
   console.log("Math.round(reading) is: " + reading);
 
