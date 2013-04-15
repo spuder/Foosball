@@ -1,0 +1,85 @@
+#wrapper {
+
+	margin: 0 auto;
+	margin-left: 0 ;
+	margin-right: 0 ;
+	text-align: center ;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+
+}
+
+
+
+
+#optionButtons{
+
+}
+
+#jsonShowButton{
+	display:block;
+	width:40px;
+	height:40px;
+	border-radius:36px;
+	border:4px double #ccc;
+	font-size:18px;
+	color:#666;
+	line-height:40px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0 1px 0 #fff;
+	background:#ddd;
+	margin-left: auto;
+	margin-right: auto;
+}
+#jsonShowButton:hover{
+	border:4px double #bbb;
+	color:#aaa;text-decoration:none;
+	background:#e6e6e6
+}
+
+#graph {
+	background-color:#C0C0C0;
+	margin: 0 auto;
+	min-height: 200px ;
+	min-width: 750px ;
+	display: inline-block;
+}
+
+#graphObject {
+	display: block;
+	width: 100%;
+}
+
+/*#rawData {
+	background-color:#C0C0C0;
+	margin: 0 auto;
+	min-height: 165px ;
+	min-width: 750px ;
+	display: inline-block;
+}*/
+
+.tableStatus{
+	display:block;
+	width:400px;
+	height:400px;
+	border-radius:366px;
+	border:4px double #ccc;
+	font-size:55px;
+	color:#000;
+	line-height:400px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0 1px 0 #fff;
+	background:#ddd;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.tableStatus:hover{
+	border:4px double #bbb;
+	color:#aaa;text-decoration:none;
+	background:#e6e6e6
+}

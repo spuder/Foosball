@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Octicons Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("https://a248.e.akamai.net/assets.github.com/assets/octicons/octicons-regular-webfont-f8cb074da115b589d1518e9701e5ce0145a9a04b.eot#iefix") format("embedded-opentype"), url("https://a248.e.akamai.net/assets.github.com/assets/octicons/octicons-regular-webfont-ca94a86a0e39e28efb023a130cb748731bb0ab58.woff") format("woff"), url("https://a248.e.akamai.net/assets.github.com/assets/octicons/octicons-regular-webfont-83378e6a590d9a4a7242c6cf23f1a1b49ce7aa14.ttf") format("truetype"), url("https://a248.e.akamai.net/assets.github.com/assets/octicons/octicons-regular-webfont-e1451ddc22ffbea19d2e8fca0742d5667940b793.svg#newFontRegular") format("svg");
+}
+
+[data-icon]:before {
+  font-family:'Octicons Regular';
+  content: attr(data-icon);
+  speak: none; 
+}
+
+#github {
+    position: absolute;
+    top: 80px;
+    right: 33%;
+    width: 80px;
+    height: 80px;
+    border-radius: 1000px;
+    background: grey;
+    border: 4px solid #656565;
+}
+
+
+.mini-icon, .mega-icon {
+    display: inline-block;
+    font-family: 'Octicons Regular';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: none;
+}
+
+
+.mega-icon-blacktocat {
+    float: left;
+    font-size: 24px;
+    height: 25px;
+    width: 24px;
+}
