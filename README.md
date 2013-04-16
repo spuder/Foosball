@@ -27,11 +27,10 @@ Icons are created with the "font icon" technique
 
 ##Credits
 Idea / Implementation - Spencer Owen
-spuder.wordpress.com
+http://www.spuder.wordpress.com
 
 Web development - Jade Rigby
 http://www.monkeybyte.net
-Contract work Available 
 
 ##License
 This content is in the public domain
