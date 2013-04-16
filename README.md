@@ -21,4 +21,5 @@ https://github.com/spudstud/Foosball/
 
 
 
-
+![Available](https://raw.github.com/spudstud/Foosball/master/img/available.png)
+![Unavailable](https://raw.github.com/spudstud/Foosball/master/img/unavailable.png)
