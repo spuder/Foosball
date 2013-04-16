@@ -7,6 +7,7 @@ Arduino Sensors detect if someone is playing foosball and shows the status in a 
 
 Arduino ethernet
 (+)piezo transducer -> Analog Pin 2
+
 (-)piezo transducer -> Ground
 
 1 MegaOhm resistor between Analog Pin 2 & ground to prevent overloads of the transducer from destroying arduino
