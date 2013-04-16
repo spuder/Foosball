@@ -6,6 +6,7 @@ Foosball
 Arduino Sensors detect if someone is playing foosball and shows the status in a web interface
 
 Arduino ethernet
+
 (+)piezo transducer -> Analog Pin 2
 
 (-)piezo transducer -> Ground
