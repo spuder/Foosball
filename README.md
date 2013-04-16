@@ -44,8 +44,4 @@ Fair use with credits cited
 #Recent table movement
 ![Unavailable](https://raw.github.com/spudstud/Foosball/master/img/unavailable.png)
 #Video in Action
-<<<<<<< HEAD
 [![Youtube](https://raw.github.com/spudstud/Foosball/master/img/youtube.png)](http://www.youtube.com/watch?v=M6PBfQhV4qg)
-=======
-![Youtube](https://raw.github.com/spudstud/Foosball/master/img/youtube.png)
->>>>>>> 16f7718ee1b223421cfffc3e13e0a31569650bf5
