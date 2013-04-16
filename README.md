@@ -27,21 +27,19 @@ Icons are created with the "font icon" technique
 
 ##Credits
 Idea / Implementation - Spencer Owen
-*spuder.wordpress.com
+spuder.wordpress.com
 
 Web development - Jade Rigby
-*http://www.monkeybyte.net
+http://www.monkeybyte.net
 Contract work Available 
-
-https://github.com/spudstud/Foosball/
 
 ##License
 This content is in the public domain
 Fair use with credits cited
 
-#No table movement for about 60 seconds
+#Foosball table is idle
 ![Available](https://raw.github.com/spudstud/Foosball/master/img/available.png)
-#Recent table movement
+#Foosball table in use
 ![Unavailable](https://raw.github.com/spudstud/Foosball/master/img/unavailable.png)
 #Video in Action
 [![Youtube](https://raw.github.com/spudstud/Foosball/master/img/youtube.png)](http://www.youtube.com/watch?v=M6PBfQhV4qg)
