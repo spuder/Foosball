@@ -2,7 +2,7 @@ Foosball
 ========
 
 
-##Hardware
+## Hardware
 Arduino Sensors detect if someone is playing foosball and shows the status in a web interface
 
 Arduino ethernet
@@ -13,28 +13,33 @@ Arduino ethernet
 
 1 MegaOhm resistor between Analog Pin 2 & ground to prevent overloads of the transducer from destroying arduino
 
-#Hardware Firmware
+### Schematics & Details
+http://spuder.wordpress.com/2013/04/15/arduino-powered-foosball-table/
+
+### Hardware Firmware
 
 The analog readings of the transducer are uploaded to cosm (formerly called pachube) at a regular interval. 
 Cosm provides API's to query the history of the sensors. 
 
 https://cosm.com/feeds/120687
 
-##HTML/CSS
+
+
+## HTML/CSS
 The webpage is written using html5 and css3 standards
 The webpage uses the cosm java script library to query the sensor feed
 
 No images are used on the page. 
 Icons are created with the "font icon" technique
 
-##Credits
+## Credits
 Idea / Implementation - Spencer Owen
 http://www.spuder.wordpress.com
 
 Web development - Jade Rigby
 http://www.monkeybyte.net
 
-##License
+## License
 This content is in the public domain
 Fair use with credits cited
 
