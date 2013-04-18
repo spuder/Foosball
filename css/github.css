@@ -1,4 +1,8 @@
-@font-face {
+/*
+Firefox and IE do not support cross domain fonts
+https://github.com/spudstud/Foosball/issues/5
+*/
+/*@font-face {
     font-family:"Octicons Regular";
     src: url('https://a248.e.akamai.net/assets.github.com/assets/octicons/octicons-regular-webfont-f8cb074da115b589d1518e9701e5ce0145a9a04b.eot#iefix') format('embedded-opentype'); 
     src: url('https://a248.e.akamai.net/assets.github.com/assets/octicons/octicons-regular-webfont-ca94a86a0e39e28efb023a130cb748731bb0ab58.woff') format('woff'), 
@@ -7,6 +11,17 @@
     font-style: normal;
     font-weight: normal;
 }
+*/
+@font-face {
+    font-family:"Octicons Regular";
+    src: url('../font/octicons-regular-webfont-f8cb074da115b589d1518e9701e5ce0145a9a04b.eot') format('embedded-opentype'); 
+    src: url('../font/octicons-regular-webfont-ca94a86a0e39e28efb023a130cb748731bb0ab58.woff') format('woff'), 
+    url('../font/octicons-regular-webfont-83378e6a590d9a4a7242c6cf23f1a1b49ce7aa14.ttf') format('truetype'), 
+    url('https://a248.e.akamai.net/assets.github.com/assets/octicons/octicons-regular-webfont-e1451ddc22ffbea19d2e8fca0742d5667940b793.svg#newFontRegular') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
 [data-icon]:before {
   font-family:'Octicons Regular';
   content: attr(data-icon);
