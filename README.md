@@ -43,4 +43,4 @@ Fair use with credits cited
 #Foosball table in use
 ![Unavailable](https://raw.github.com/spudstud/Foosball/master/img/unavailable.png)
 #Video in Action
-[![Youtube](https://raw.github.com/spudstud/Foosball/master/img/youtube.png)](http://www.youtube.com/watch?v=M6PBfQhV4qg)
+[![Youtube](https://raw.github.com/spudstud/Foosball/master/img/youtube.png)](http://www.youtube.com/watch?v=hi32JtDzm6I) 
